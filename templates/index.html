@@ -4,7 +4,7 @@
 </head>
 <body>
   <h1>Sample IRIS Classifier Model Application</h1> 
-<form action=”{{ url_for(‘predict’)}}”method=”post”>
+<form action=”re”method=”post”>
 <input type=”text” name=”sepal_length” placeholder=”Sepal Length” required=”required” /> 
 <input type=”text” name=”sepal_width” placeholder=”Sepal Width” required=”required” />
 <br>
@@ -13,7 +13,7 @@
 <input type=”text” name=”petal_width” placeholder=”Petal Width” required=”required” /> 
 <br>
 <br> 
-{{ output }} 
+
 <br>
  <button type=”submit” class=”btn btn-primary btn-block btn-large”>Submit Data</button> </form>
  <br> 
