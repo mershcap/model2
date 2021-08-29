@@ -11,7 +11,7 @@ n=N()
 
 @app.route('/')
 def Home():
-    n.add
+    n.add()
     return str(n.n)
 
 if __name__=='__main__':
