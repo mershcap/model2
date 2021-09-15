@@ -135,7 +135,7 @@ def myassets():
 	
 	info=json.loads(req.text)
 	
-	data=[{'number':0,'asset_tag':'asset tag','desc':'description'}]
+	data=[{'number':'ID','asset_tag':'asset tag','desc':'description'}]
 	i=1
 	
 	for x in info[0]:
