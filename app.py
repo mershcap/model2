@@ -145,7 +145,7 @@ def myassets():
 	
 	return json.dumps(data)
 	
-@app.route("/create_block",methods=["POST"])
+@app.route("/create_block")
 def create_block():
 	
 	#creating block
