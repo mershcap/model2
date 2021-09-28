@@ -62,7 +62,7 @@ def add_new():
 	time=datetime.datetime.now()
 	time=time.strftime("%d-%b-%y %H:%M")
 	
-	tag=hashing(request.args.get("asset_tag",""))
+	tag=request.args.get("asset_tag","")
 	trans=hashing(tag)
 	rec=request.args.get("receiver","")
 	blo="newtag"
