@@ -156,7 +156,7 @@ def create_block():
 	
 	#creating block
 	text=request.args.get("hash","")
-	text=hashing(text[0])
+	#text=hashing(text[0])
 	
 	head={'request':'create_block','hash':text}
 	req=requests.post(url,data=head)
